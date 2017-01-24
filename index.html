@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+      #banner {
+        width: 100%;
+        position: fixed;
+        display: flex;
+        justify-content: space-around;
+        height: 70px;
+        align-items: center;
+        background-color: #262626;
+      }
+      .itemCursorPointer {
+        cursor: pointer;
+      }
+      .itemWhiteColor {
+        color: white;
+      }
+      .textItem {
+        color: #b3b3b3;
+      }
+      .signupBtn {
+        display: flex;
+        align-items: center;
+        width: 70px;
+        height: 31px;
+        background-color: #089898;
+        color: white;
+        text-align: center;
+        border-radius: 3px;
+        font-weight: 600;
+      }
+      .textItem:hover {
+        color: #fff;
+      }
+      .transition {
+        transition: all .3s;
+      }
+
+      /* Second */
+      #secondBox {
+        padding-top: 70px;
+        background-color: #000;
+      }
+      .secondBoxTitle {
+        font-size: 72px;
+      }
+      .secondBoxDescript {
+        font-size: 24px;
+      }
+      .secondBoxItems {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 80px;
+      }
+      .secondBoxCenterItem {
+        text-align: center;
+      }
+      .secondBoxTextItem {
+        font-weight: 600;
+        font-size: 16px;
+      }
+      .secondBoxPaddingItem {
+        padding: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id='banner'>
+      <div class='itemWhiteColor itemCursorPointer'>MUSICBED</div>
+      <div class='textItem itemCursorPointer transition'>Browse</div>
+      <div class='textItem itemCursorPointer transition'>Playlists</div>
+      <div class='textItem itemCursorPointer transition'>About</div>
+      <div class='textItem itemCursorPointer transition'>Blog</div>
+      <div></div>
+      <div class='textItem itemCursorPointer transition'>Log in</div>
+      <div class='signupBtn itemCursorPointer'>
+        <span style='position: relative; margin: 0 auto;'>
+          Sign up
+        </span>
+      </div>
+      <div class='itemWhiteColor itemCursorPointer'>Search</div>
+      <div class='itemWhiteColor itemCursorPointer'>Other</div>
+    </div>
+    <div id='secondBox'>
+      <h1 class='itemWhiteColor secondBoxTitle text-center'>Licensing Relevant Music</h1>
+      <div class='itemWhiteColor secondBoxDescript text-center'>600+ of the world’s best musicians, bands, and composers.</div>
+      <div class='secondBoxItems'>
+        <div class='itemWhiteColor secondBoxCenterItem secondBoxTextItem'>
+          <div class='secondBoxPaddingItem'>AMBIENT</div>
+          <div class='secondBoxPaddingItem'>BLUES</div>
+          <div class='secondBoxPaddingItem'>CINEMATIC</div>
+          <div class='secondBoxPaddingItem'>COUNTRY</div>
+        </div>
+        <div class='itemWhiteColor secondBoxCenterItem secondBoxTextItem'>
+          <div class='secondBoxPaddingItem'>ELECTRONIC</div>
+          <div class='secondBoxPaddingItem'>FOLK</div>
+          <div class='secondBoxPaddingItem'>HIP HOP</div>
+          <div class='secondBoxPaddingItem'>INDIE</div>
+        </div>
+        <div class='itemWhiteColor secondBoxCenterItem secondBoxTextItem'>
+          <div class='secondBoxPaddingItem'>POP</div>
+          <div class='secondBoxPaddingItem'>POST ROCK</div>
+          <div class='secondBoxPaddingItem'>ROCK</div>
+          <div class='secondBoxPaddingItem'>SOUL</div>
+        </div>
+      </div>
+    </div>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+  </body>
+</html>
